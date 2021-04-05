@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background:#f06210;
+    background:#312c29;
 }
 
 body::before{
@@ -33,8 +33,8 @@ body::after{
     left: 0;
     width: 100%;
     height: 100%;
-    background:linear-gradient(#ffffff, #d10314 );
-    clip-path: circle(40% at 10% 10%);
+    background:linear-gradient(#f72a3b, #0a0a0a );
+    clip-path: circle(50% at 10% 0%);
 }
 
 .container{
@@ -107,7 +107,7 @@ body::after{
     color: #fff;
     font-weight: 200;
     text-align: center;
-    
+
 }
 
 .container .card .content h4{
@@ -124,11 +124,11 @@ body::after{
     display: inline-block;
     padding: 8px 40px;
     margin-top: 35px;
-    background: rgb(51, 48, 48);
-    color: #fff;
+    background: rgb(248, 247, 247);
+    color: rgb(3, 3, 3);
     border-radius: 20px;
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 500;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
 
